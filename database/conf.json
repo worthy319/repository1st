@@ -1,0 +1,40 @@
+# ------------------------------------------------------------------- #
+# 日志选项
+systemLog:
+	#verbosity --> int --> default: 0 --> 信息级别 0-5 可选  基本不用管
+	verbosity : 0
+
+	#quiet --> boolean --> Run the mongos or mongod in a quiet mode that attempts to limit the amount of output.
+
+	#traceAllExceptions -->  boolean --> Print verbose information for debugging. Use for additional logging for support-related troubleshooting.
+
+	#syslogFacility --> string -->
+
+	#
+	destination: file
+	
+	#
+	path: D:\projects\node_project\repository1st\database\log
+	logAppend: true
+# ------------------------------------------------------------------- #
+
+# ------------------------------------------------------------------- #
+#文件存储相关
+storage:
+# ------------------------------------------------------------------- #
+
+# ------------------------------------------------------------------- #
+#暂时不知干嘛的
+journal:
+	enabled: true
+	dbPath: D:\projects\node_project\repository1st\database\db
+# ------------------------------------------------------------------- #
+
+# ------------------------------------------------------------------- #
+net:
+	#bindIp 数据库的IP地址
+	bindIp: 127.0.0.1
+
+	#port 数据库端口
+	port: 32000
+# ------------------------------------------------------------------- #
