@@ -8,9 +8,9 @@ var assert = require("assert");
 app.use("/resource", express.static(__dirname + "/resource"));
 app.use("/public", express.static(__dirname + "/public"));
 
-app.
+app.set("views", __dirname + "/views");
 
-app.engine();
+app.engine("html", require("ejs").renderFile);
 
 
 
