@@ -14,7 +14,7 @@ systemLog:
 	destination: file
 	
 	#
-	path: D:\projects\node_project\repository1st\database\log
+	path: ./log
 	logAppend: true
 # ------------------------------------------------------------------- #
 
@@ -27,7 +27,7 @@ storage:
 #暂时不知干嘛的
 journal:
 	enabled: true
-	dbPath: D:\projects\node_project\repository1st\database\db
+	dbPath: ./db
 # ------------------------------------------------------------------- #
 
 # ------------------------------------------------------------------- #
