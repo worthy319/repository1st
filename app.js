@@ -9,6 +9,7 @@ app.use("/third-part", express.static(__dirname + "/third-part"));
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 app.set('view engine', 'html');
 app.set("views", __dirname + "/views");
 app.engine("html", require('ejs').renderFile);
@@ -19,6 +20,11 @@ app.engine("html", require("ejs").renderFile);
 >>>>>>> origin/master
 =======
 app.set("views", __dirname + "/views");
+=======
+app.set("views", __dirname + "/views");
+
+app.engine("html", require("ejs").renderFile);
+>>>>>>> origin/master
 
 app.engine("html", require("ejs").renderFile);
 >>>>>>> origin/master
